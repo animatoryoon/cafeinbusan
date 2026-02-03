@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1450">
+    <title>카페인부산</title>
+    <!-- 폰트: 프리텐다드 -->
+    <link rel="stylesheet" href="./fonts/pretendard.css">
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/sub3_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_inner">
+            <a href="./index.html" id="logo"><img src="./images/logo.png" alt="로고"></a>
+            <ul id="gnb">
+                <li>
+                    <a href="./sub1.html">ABOUT US</a>
+                    <ul class="sub">
+                        <li><a href="./sub1.html#brand">브랜드소개</a></li>
+                        <li><a href="./sub1.html#flow_text">크루소개</a></li>
+                        <li><a href="./sub1.html#app_feature">앱 안내</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub2.html">SEARCH</a>
+                    <ul class="sub">
+                        <li><a href="./sub2.html#popular">인기 검색</a></li>
+                        <li><a href="./sub2.html#mid_wrapper">카페 리스트</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub3.html">MAGAZINE</a>
+                    <ul class="sub">
+                        <li><a href="./sub3.html#news">NEWS</a></li>
+                        <li><a href="./sub3.html#anchor_people">PEOPLE</a></li>
+                        <li><a href="./sub3.html#special">SPECIAL</a></li>
+                        <li><a href="./sub3.html#all">ALL</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub4_1.html">SHOP</a>
+                    <ul class="sub">
+                        <li><a href="./sub4_1.html#shop">전체보기</a></li>
+                        <li><a href="./sub4_2.html#shop">자체 상품</a></li>
+                        <li><a href="./sub4_3.html#shop">부산카페 상품</a></li>
+                        <li><a href="./sub4_4.html#shop">굿즈</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ol id="header_menu">
+                <li>
+                    <form action="#">
+                        <input type="search">
+                    </form>
+                </li>
+                <li><a href="#none"></a></li>
+                <li><a href="#none"></a></li>
+            </ol>
+        </div><!-- header_inner -->
+    </header>
+    <div id="fixed_btn">
+        <p id="history_btn"><a href="#none"><img src="./images/icon_history.png" alt="최근본 버튼"></a></p>
+        <p id="top_btn"><a href="#none"><img src="./images/icon_top.png" alt="탑 버튼"></a></p>
+        <div id="history_list">
+            <!-- 배경 -->
+            <h3>최근 본 카페
+                <a class="close" href="#none"><img src="./images/icon_close.png" alt="닫기 아이콘"></a>
+            </h3>
+            <ul>
+                <li>
+                    <a href="./sub2.html#mid_wrapper">
+                        <img src="./images/history_list1.jpg" alt="최근본카페1">
+                        <p>커맨드커피</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub2.html#mid_wrapper">
+                        <img src="./images/history_list2.jpg" alt="최근본카페2">
+                        <p>말루비아</p>
+                    </a>
+                </li>
+            </ul>
+            <p class="close"></p>
+        </div><!-- history_list -->
+    </div><!-- fixed_btn -->
+
+    <div id="sub_top">
+        <!-- 배경이미지 -->
+        <div class="top_inner">
+            <div class="wrapper">
+                <h1 class="sub_title">MAGAZINE</h1>
+                <img src="./images/top_wave.png" alt="탑 이미지 물결">
+            </div><!-- wrapper -->
+        </div><!-- top_inner -->
+    </div><!-- sub_top -->
+    <div id="news">
+        <div class="title_wrapper" data-aos="fade-right" data-aos-duration="1000">
+            <h1 class="title">#NEWS</h1>
+            <h2 class="title_about">부산의 커피에 대한 각종 소식을 전해드립니다</h2>
+        </div><!-- title_wrapper -->
+        <div id="tab">
+            <div class="tab_container" data-aos="flip-left" data-aos-duration="1200">
+                <div id="tab1" class="tab_content">
+                    <img src="./images/sub3/news_img1.jpg" alt="소식 이미지1">
+                </div>
+                <div id="tab2" class="tab_content">
+                    <img src="./images/sub3/news_img2.jpg" alt="소식 이미지2">
+
+                </div>
+                <div id="tab3" class="tab_content">
+                    <img src="./images/sub3/news_img3.jpg" alt="소식 이미지3">
+
+                </div>
+                <div id="tab4" class="tab_content">
+                    <img src="./images/sub3/news_img4.jpg" alt="소식 이미지4">
+                </div>
+            </div><!-- tab_container -->
+            <ul class="tabs" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+                <li><span data="#tab1">카페 탐방 에세이 「 부산 바다 커피 」 발간</span></li>
+                <li><span data="#tab2">부산국제커피박물관 브루잉 클래스 모집중</span></li>
+                <li><span data="#tab3">전국장애인 바리스타 대회(KDBC) 부산 개최</span></li>
+                <li><span data="#tab4">스페셜티 커피 축제 스카마켓 성황리 종료</span></li>
+            </ul>
+        </div><!-- tab -->
+    </div><!-- news -->
+    <div id="anchor_people" class="anchor"></div><!-- anchor -->
+    <div id="people">
+        <div class="people_inner">
+            <div class="title_wrapper" data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="title">#PEOPLE</h1>
+                <h2 class="title_about">사람과 커피, 다시 사람으로 이어지는 이야기를 소개합니다</h2>
+            </div><!-- title_wrapper -->
+            <div class="people contents1" data-aos="fade-right" data-aos-duration="1000">
+                <h3>전국 장애인 바리스타 대회장</h3>
+                <h1>전아영 BCN 대표</h1>
+                <h2>동구 초량동 소재 바리스타 교육장 운영<br>
+                    ‘올림픽 후 패럴림픽 하듯<br>
+                    세계대회 후 부산에서 같이 개최 원했다’</h2>
+                <p>올해 5월 부산에서 세계최초로 '장애인 월드 바리스타 챔피언십'이 개최된다. 방식은 토너먼트 형식의 개인전으로 치러진다. 비장애인 바리스타 대회는 15분동안 시연한 음료 제조
+                    과정으로 평가 받는다. 반면 장애인 바리스타 대회에서는 제조한 음료의 결과물로 평가받는다는 점이 다르다 ⋯ <span>더보기</span></p>
+            </div><!-- people contents1 -->
+            <img class="contents1_img" src="./images/sub3/people_img1.png" alt="people 이미지1" data-aos="fade-left"
+                data-aos-duration="1000">
+            <div class="people contents2" data-aos="fade-left" data-aos-duration="1000">
+                <h3>노르웨이 커피 브랜드 ‘hygge’ 대표</h3>
+                <h1>바리스타 마틴 뵐플</h1>
+                <h2>월드 바리스타 챔피언십 심사위해 한국 방문<br>
+                    ‘고되지만 흥미로운 과정... 내년에 또 오고파’<br>
+                    커피에 대한 시민들의 관심에 놀라기도</h2>
+                <p>세계 커피 챔피언을 뽑는 자리. 그 사람을 심사하고 평가하는 사람들은 어떤 누구일까? 올해 WBC 대회 심사위원으로 방문한 마틴 뵐플이 그 궁금증을 풀어준다. "심사를 잘하려면
+                    글씨를 빨리 써야합니다. 심사위원은 정확하고 일정하게 참가자의 제조과정을 기록해야하거든요. 포터필터 세팅, 탬퍼의 스핀 그리고 손목 스냅 등 모든 것 ⋯
+                    <span>더보기</span>
+                </p>
+            </div><!-- people contents2 -->
+            <img class="contents2_img" src="./images/sub3/people_img2.png" alt="people 이미지2" data-aos="fade-right"
+                data-aos-duration="1000">
+            <img class="rotate ob1" src="./images/sub3/people_object1.png" alt="회전 오브젝트1">
+            <img class="rotate ob2" src="./images/sub3/people_object2.png" alt="회전 오브젝트2">
+            <img class="rotate ob3" src="./images/sub3/people_object3.png" alt="회전 오브젝트3">
+            <img class="rotate ob4" src="./images/sub3/people_object4.png" alt="회전 오브젝트4">
+        </div><!-- people_inner -->
+    </div><!-- news -->
+    <div id="special">
+        <div class="title_wrapper" data-aos="fade-right" data-aos-duration="800">
+            <h1 class="title">#SPECIAL</h1>
+            <h2 class="title_about">다양한 주제와 흥미로운 이야기로 커피도시 부산을 구석구석 살펴봅니다</h2>
+        </div><!-- title_wrapper -->
+        <div class="flow_line line1">
+            <ul>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img1.jpg" alt="스페셜 이미지1">
+                        <h1 class="special_title">부산 카페 거리 정복기</h1>
+                        <h2 class="special_sub_title"># 해리단길부터 영도 카페특화 거리까지</h2>
+                        <p class="text">부산에 있는 카페 거리, 모두 가보셨나요? 도장깨기하듯 하나하나 탐방하고 즐기고온 이야기를 들려드릴게요.<br>
+                            거리마다 에디터의 ‘최애’ 카페도 추천해드립니다.<br>
+                            - Editor 커피열매 </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img2.jpg" alt="스페셜 이미지2">
+                        <h1 class="special_title">부산에서 시작한<br>
+                            프랜차이즈 커피 브랜드</h1>
+                        <h2 class="special_sub_title"></h2>
+                        <p class="text">텐퍼센트, 블루샥, 더벤티, 카페051 등 우리가 익히 아는 카페들 중 부산에서 처음 시작한 브랜드가 많다는 사실!
+                            각 브랜드 대표님들과 ‘처음’과 성장과정에 대해서 이야기 나눠보았습니다. - Editor 뜨거운아아 </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img3.jpg" alt="스페셜 이미지3">
+                        <h1 class="special_title">A to Z 숫자로 보는 부산커피 </h1>
+                        <h2 class="special_sub_title"># 숫자 ‘1’ # 부산의 카페 수는?</h2>
+                        <p class="text">국내 커피 수입 물량 중 92%가 부산항을 통해 들어온다는 사실을 아시나요? 연간 커피 소비량부터 커피 산업의 규모까지 다각도로 접근해보았어요.
+                            - Editor Kim</p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img4.jpg" alt="스페셜 이미지4">
+                        <h1 class="special_title">도시재생사업과 카페거리</h1>
+                        <h2 class="special_sub_title"># 침체된 지역에 활기를 불어넣는 </h2>
+                        <p class="text">침체되어가던 지역에 하나 둘씩 카페가 들어서며 사람들이 다시 찾는 장소가 되었습니다. 조금은 낡았기에 오히려 저마다의 개성으로 다시 태어난
+                            공간들이 우리 사회에 주는 의미는 무엇일까요? - Editor 가베 </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+            </ul>
+            <ul>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img1.jpg" alt="스페셜 이미지1">
+                        <h1 class="special_title">부산 카페 거리 정복기</h1>
+                        <h2 class="special_sub_title"># 해리단길부터 영도 카페특화 거리까지</h2>
+                        <p class="text">부산에 있는 카페 거리, 모두 가보셨나요? 도장깨기하듯 하나하나 탐방하고 즐기고온 이야기를 들려드릴게요.<br>
+                            거리마다 에디터의 ‘최애’ 카페도 추천해드립니다.<br>
+                            - Editor 커피열매 </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img2.jpg" alt="스페셜 이미지2">
+                        <h1 class="special_title">부산에서 시작한<br>
+                            프랜차이즈 커피 브랜드</h1>
+                        <h2 class="special_sub_title"></h2>
+                        <p class="text">텐퍼센트, 블루샥, 더벤티, 카페051 등 우리가 익히 아는 카페들 중 부산에서 처음 시작한 브랜드가 많다는 사실!
+                            각 브랜드 대표님들과 ‘처음’과 성장과정에 대해서 이야기 나눠보았습니다. - Editor 뜨거운아아 </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img3.jpg" alt="스페셜 이미지3">
+                        <h1 class="special_title">A to Z 숫자로 보는 부산커피 </h1>
+                        <h2 class="special_sub_title"># 숫자 ‘1’ # 부산의 카페 수는?</h2>
+                        <p class="text">국내 커피 수입 물량 중 92%가 부산항을 통해 들어온다는 사실을 아시나요? 연간 커피 소비량부터 커피 산업의 규모까지 다각도로 접근해보았어요.
+                            - Editor Kim</p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img4.jpg" alt="스페셜 이미지4">
+                        <h1 class="special_title">도시재생사업과 카페거리</h1>
+                        <h2 class="special_sub_title"># 침체된 지역에 활기를 불어넣는 </h2>
+                        <p class="text">침체되어가던 지역에 하나 둘씩 카페가 들어서며 사람들이 다시 찾는 장소가 되었습니다. 조금은 낡았기에 오히려 저마다의 개성으로 다시 태어난
+                            공간들이 우리 사회에 주는 의미는 무엇일까요? - Editor 가베 </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+            </ul>
+        </div><!-- line1 -->
+        <div class="flow_line line2">
+            <ul>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img5.jpg" alt="스페셜 이미지5">
+                        <h1 class="special_title">부산이 커피에 특화된 이유?
+                        </h1>
+                        <h2 class="special_sub_title"># 항만 #원두신선도 #직수입</h2>
+                        <p class="text">커피 맛의 시작은 원두에서부터 시작한다고 해도 과언이 아닙니다. 바다와 접한 부산은 항만이 있어 원두의 수입, 보관, 유통에 유리한 이점을
+                            가지고있어요. 보다 전문적인 시각에서 분석해보았습니다. - Editor HYNN </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img6.jpg" alt="스페셜 이미지6">
+                        <h1 class="special_title">터키식 샌드커피의 매력</h1>
+                        <h2 class="special_sub_title"># 200도 모래만큼 뜨거운 열정, 카페 <말루비아>
+                        </h2>
+                        <p class="text">광안리에 위치한 카페에서는 언제나 진한 커피 냄새가 흘러나옵니다. 생소한 터키식 모래 커피로 카페를 열게 된 사장님의 사연과 처음 맛본
+                            샌드커피에 대한 솔직한 맛 평가를 해보았습니다. - Editor 커피콩
+                        </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img7.jpg" alt="스페셜 이미지7">
+                        <h1 class="special_title">부산 로스터 모임 SRU</h1>
+                        <h2 class="special_sub_title"># 보다 좋은 커피맛을 위한 노력</h2>
+                        <p class="text">처음에는 친목에서 시작했던 작은 모임이 어느새 자체 로스팅 대회까지 열게 된 이야기를 들어보았습니다. 로스팅 기계의 더운 열기만큼 뜨거운 열정도
+                            함께 느껴보아요. <br>- Editor 산미</p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img8.jpg" alt="스페셜 이미지8">
+                        <h1 class="special_title">역사 속 부산의 커피 문화</h1>
+                        <h2 class="special_sub_title"># 피란시절 예술인들의 위안</h2>
+                        <p class="text">우리나라에서 최초로 커피를 마신 사람이 아마 부산 사람일 것이라는 추측이 있습니다. 피란시절부터 ‘가비방’과 ‘밀다원’이 이미 지금의 프랜차이즈
+                            카페 같은 역할을 했다고 하니 참 흥미롭지 않나요? - Editor Y</p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+            </ul>
+            <ul>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img5.jpg" alt="스페셜 이미지5">
+                        <h1 class="special_title">부산이 커피에 특화된 이유?
+                        </h1>
+                        <h2 class="special_sub_title"># 항만 #원두신선도 #직수입</h2>
+                        <p class="text">커피 맛의 시작은 원두에서부터 시작한다고 해도 과언이 아닙니다. 바다와 접한 부산은 항만이 있어 원두의 수입, 보관, 유통에 유리한 이점을
+                            가지고있어요. 보다 전문적인 시각에서 분석해보았습니다. - Editor HYNN </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img6.jpg" alt="스페셜 이미지6">
+                        <h1 class="special_title">터키식 샌드커피의 매력</h1>
+                        <h2 class="special_sub_title"># 200도 모래만큼 뜨거운 열정, 카페 <말루비아>
+                        </h2>
+                        <p class="text">광안리에 위치한 카페에서는 언제나 진한 커피 냄새가 흘러나옵니다. 생소한 터키식 모래 커피로 카페를 열게 된 사장님의 사연과 처음 맛본
+                            샌드커피에 대한 솔직한 맛 평가를 해보았습니다. - Editor 커피콩
+                        </p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img7.jpg" alt="스페셜 이미지7">
+                        <h1 class="special_title">부산 로스터 모임 SRU</h1>
+                        <h2 class="special_sub_title"># 보다 좋은 커피맛을 위한 노력</h2>
+                        <p class="text">처음에는 친목에서 시작했던 작은 모임이 어느새 자체 로스팅 대회까지 열게 된 이야기를 들어보았습니다. 로스팅 기계의 더운 열기만큼 뜨거운 열정도
+                            함께 느껴보아요. <br>- Editor 산미</p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+                <li><a href="#none">
+                        <img src="./images/sub3/special_img8.jpg" alt="스페셜 이미지8">
+                        <h1 class="special_title">역사 속 부산의 커피 문화</h1>
+                        <h2 class="special_sub_title"># 피란시절 예술인들의 위안</h2>
+                        <p class="text">우리나라에서 최초로 커피를 마신 사람이 아마 부산 사람일 것이라는 추측이 있습니다. 피란시절부터 ‘가비방’과 ‘밀다원’이 이미 지금의 프랜차이즈
+                            카페 같은 역할을 했다고 하니 참 흥미롭지 않나요? - Editor Y</p>
+                        <p class="btn_read">READ</p>
+                    </a></li>
+            </ul>
+        </div><!-- line2 -->
+    </div><!-- special -->
+    <div id="all">
+        <div class="all_inner">
+            <div class="title_wrapper" data-aos="fade-down" data-aos-duration="800">
+                <h1 class="title">#ALL</h1>
+                <h2 class="title_about">이전에 발행된 콘텐츠를 모두 볼 수 있어요</h2>
+            </div><!-- title_wrapper -->
+            <ul class="align_left" data-aos="fade-right" data-aos-duration="800">
+                <li class="tag_people"><a href="#none">
+                        <p class="category"># PEOPLE</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img1.png" alt="콘텐츠 이미지1">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>전아영 BCN 대표 인터뷰</h3>
+                            <h4>전국 장애인 바리스타 대회장</h4>
+                            <p class="date">2024-04-24</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>245</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img2.png" alt="콘텐츠 이미지2">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>부산 카페 거리 정복기</h3>
+                            <h4>해리단길부터 미포카페거리까지</h4>
+                            <p class="date">2024-04-19</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>170</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_news"><a href="#none">
+                        <p class="category">&nbsp;# NEWS</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img3.png" alt="콘텐츠 이미지3">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>「 부산 바다 커피 」 발간</h3>
+                            <h4>비치리딩시리즈 카페 탐방 에세이</h4>
+                            <p class="date">2024-04-15</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>145</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img4.png" alt="콘텐츠 이미지4">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>도시재생사업과 카페거리</h3>
+                            <h4>침체된 지역에 활기를 불어넣는</h4>
+                            <p class="date">2024-04-07</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>211</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+            </ul><!-- 1 -->
+            <ul class="align_right" data-aos="fade-left" data-aos-duration="800">
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img5.png" alt="콘텐츠 이미지5">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>부산에서 시작한 브랜드</h3>
+                            <h4>브랜드 대표들이 말하는 성장과정 </h4>
+                            <p class="date">2024-04-02</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>201</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img6.png" alt="콘텐츠 이미지6">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>부산 스페셜티 인증 카페 </h3>
+                            <h4>인증 기준부터 카페정보까지</h4>
+                            <p class="date">2024-03-30</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>285</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_people"><a href="#none">
+                        <p class="category"># PEOPLE</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img7.png" alt="콘텐츠 이미지7">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>바리스타 마틴 뵐플 인터뷰</h3>
+                            <h4>월드 바리스타 챔피언십 심사위원</h4>
+                            <p class="date">2024-03-25</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>300</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img8.png" alt="콘텐츠 이미지8">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>숫자로 보는 부산커피</h3>
+                            <h4>연간커피 소비량부터 다각도로</h4>
+                            <p class="date">2024-03-17</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>211</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+            </ul><!-- 2 -->
+            <ul class="align_left" data-aos="fade-right" data-aos-duration="800">
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img9.png" alt="콘텐츠 이미지9">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>부산이 커피에 특화된 이유</h3>
+                            <h4>항만수입과 원두의 신선도</h4>
+                            <p class="date">2024-03-16</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>178</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img10.png" alt="콘텐츠 이미지10">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>카페거리 젠트리피케이션</h3>
+                            <h4> 기존 가게가 떠나는 아이러니 </h4>
+                            <p class="date">2024-03-11</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>120</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_news"><a href="#none">
+                        <p class="category">&nbsp;# NEWS</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img11.png" alt="콘텐츠 이미지11">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>스카마켓 성황리 종료</h3>
+                            <h4>개최 기간 내내 발길 끊이지 않아 </h4>
+                            <p class="date">2024-03-05</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>151</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img12.png" alt="콘텐츠 이미지12">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>역사속 부산의 커피문화</h3>
+                            <h4>피란시절 예술인들의 위안</h4>
+                            <p class="date">2024-02-28</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>185</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+            </ul><!-- 3 -->
+            <ul class="align_right" data-aos="fade-left" data-aos-duration="800">
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img13.png" alt="콘텐츠 이미지13">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>터키식 샌드커피의 매력</h3>
+                            <h4>200도 모래만큼 뜨거운 열정</h4>
+                            <p class="date">2024-02-20</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>307</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_people"><a href="#none">
+                        <p class="category"># PEOPLE</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img14.png" alt="콘텐츠 이미지14">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>컵 테이스터 추경하 인터뷰</h3>
+                            <h4>부산 출신 월드 커핑대회 우승자 </h4>
+                            <p class="date">2024-02-18</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>136</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_special"><a href="#none">
+                        <p class="category"># SPECIAL</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img15.png" alt="콘텐츠 이미지15">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>부산 로스터모임 SRU</h3>
+                            <h4>보다 좋은 커피맛을 위한 노력 </h4>
+                            <p class="date">2024-02-15</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>134</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+                <li class="tag_people"><a href="#none">
+                        <p class="category"># PEOPLE</p>
+                        <div class="img_box">
+                            <img src="./images/sub3/all_img16.png" alt="콘텐츠 이미지16">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <h3>부산국제커피박물관</h3>
+                            <h4>소장품 기증자 이재협의 인생</h4>
+                            <p class="date">2024-02-10</p>
+                            <div class="view">
+                                <img src="./images/sub3/icon_view.png" alt="조회수 아이콘">
+                                <p>229</p>
+                            </div><!-- view -->
+                        </div><!-- text_box -->
+                    </a></li>
+            </ul><!-- 4 -->
+            <p class="btn_more">
+                <a href="#none"><img src="./images/sub3/btn_more.png" alt="더보기 버튼"></a>
+            </p>
+        </div><!-- all_inner -->
+    </div><!-- all -->
+    <footer>
+        <!-- 움직이는 배경 -->
+        <div class="wave1"></div><!-- wave1 -->
+        <div class="wave2"></div><!-- wave2 -->
+        <div class="footer_inner">
+            <!--  포지션, 가운데정렬 -->
+            <h1 class="footer_logo"><a href="./index.html"><img src="./images/index/footer_logo.png" alt="푸터 로고"></a>
+            </h1>
+            <div class="info">
+                <p>
+                    <span>회사명</span>&nbsp; 주식회사 카페인부산 &nbsp; &nbsp;<span>대표자</span>&nbsp; 이영윤 이재협&nbsp; &nbsp;
+                    <span>주소</span>&nbsp;
+                    부산광역시 중구 중앙대로 26 기업성장센터 10층
+                    1005호<br>
+                    <span>문의전화</span>&nbsp; 1588-1650 &nbsp; &nbsp;<span>상담가능시간</span>&nbsp; 10:00 ~ 19:00 (Break 13:00
+                    ~
+                    14:00)&nbsp; &nbsp;
+                    <span>문의메일</span> &nbsp;ask@caffein_busan.com
+                </p>
+                <ul>
+                    <li><a href="https://www.kakaocorp.com/page/service/service/KakaoTalk" target="_blank"><img
+                                src="./images/index/icon_kakao.png" alt="카카오톡 아이콘"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/index/icon_insta.png"
+                                alt="인스타 아이콘"></a></li>
+                    <li><a href="https://twitter.com/X" target="_blank"><img src="./images/index/icon_x.png"
+                                alt="X 아이콘"></a></li>
+                </ul>
+            </div><!-- info -->
+            <ol class="footer_menu">
+                <li><a href="#none">이용약관</a></li>
+                <li><a href="#none">개인정보처리방침</a></li>
+                <li><a href="#none">비즈니스 문의</a></li>
+            </ol>
+            <p>© 2024 Caffein Busan All rights reserved.</p>
+        </div><!-- footer_inner -->
+    </footer>
+    <!-- 헤더 배경 변화 -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="./js/common_script.js"></script>
+    <script src="./js/sub3_script.js"></script>
+</body>
+
+</html>

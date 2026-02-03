@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1450">
+    <title>카페인부산</title>
+    <!-- 폰트: 프리텐다드 -->
+    <link rel="stylesheet" href="./fonts/pretendard.css">
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/sub2_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_inner">
+            <a href="./index.html" id="logo"><img src="./images/logo.png" alt="로고"></a>
+            <ul id="gnb">
+                <li>
+                    <a href="./sub1.html">ABOUT US</a>
+                    <ul class="sub">
+                        <li><a href="./sub1.html#brand">브랜드소개</a></li>
+                        <li><a href="./sub1.html#flow_text">크루소개</a></li>
+                        <li><a href="./sub1.html#app_feature">앱 안내</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub2.html">SEARCH</a>
+                    <ul class="sub">
+                        <li><a href="./sub2.html#popular">인기 검색</a></li>
+                        <li><a href="./sub2.html#mid_wrapper">카페 리스트</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub3.html">MAGAZINE</a>
+                    <ul class="sub">
+                        <li><a href="./sub3.html#news">NEWS</a></li>
+                        <li><a href="./sub3.html#anchor_people">PEOPLE</a></li>
+                        <li><a href="./sub3.html#special">SPECIAL</a></li>
+                        <li><a href="./sub3.html#all">ALL</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub4_1.html">SHOP</a>
+                    <ul class="sub">
+                        <li><a href="./sub4_1.html#shop">전체보기</a></li>
+                        <li><a href="./sub4_2.html#shop">자체 상품</a></li>
+                        <li><a href="./sub4_3.html#shop">부산카페 상품</a></li>
+                        <li><a href="./sub4_4.html#shop">굿즈</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ol id="header_menu">
+                <li>
+                    <form action="#">
+                        <input type="search">
+                    </form>
+                </li>
+                <li><a href="#none"></a></li>
+                <li><a href="#none"></a></li>
+            </ol>
+        </div><!-- header_inner -->
+    </header>
+    <div id="fixed_btn">
+        <p id="history_btn"><a href="#none"><img src="./images/icon_history.png" alt="최근본 버튼"></a></p>
+        <p id="top_btn"><a href="#none"><img src="./images/icon_top.png" alt="탑 버튼"></a></p>
+        <div id="history_list">
+            <!-- 배경 -->
+            <h3>최근 본 카페
+                <a class="close" href="#none"><img src="./images/icon_close.png" alt="닫기 아이콘"></a>
+            </h3>
+            <ul>
+                <li>
+                    <a href="./sub2.html#mid_wrapper">
+                        <img src="./images/history_list1.jpg" alt="최근본카페1">
+                        <p>커맨드커피</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub2.html#mid_wrapper">
+                        <img src="./images/history_list2.jpg" alt="최근본카페2">
+                        <p>말루비아</p>
+                    </a>
+                </li>
+            </ul>
+            <p class="close"></p>
+        </div><!-- history_list -->
+    </div><!-- fixed_btn -->
+    <div id="sub_top">
+        <!-- 배경이미지 -->
+        <div class="top_inner">
+            <div class="wrapper">
+                <h1 class="sub_title">SEARCH</h1>
+                <img src="./images/top_wave.png" alt="탑 이미지 물결">
+            </div><!-- wrapper -->
+        </div><!-- top_inner -->
+    </div><!-- sub_top -->
+    <div id="popular">
+        <div class="title" data-aos="fade-right" data-aos-duration="800">
+            <h1>6월<img src="./images/sub2/popular_emoji.png" alt="인기검색어 이모지"><br>인기검색어</h1>
+            <p>커피 한잔과 함께<br>
+                나들이하기 좋은 날씨!<br>
+                사람들이 많이 찾고 있어요</p>
+            <p class="emoji"></p>
+        </div><!-- title -->
+        <ul class="location">
+            <li data-aos="flip-left" data-aos-duration="800"><a href="#none">
+                    <img src="./images/sub2/popular_location_park.jpg" alt="인기검색어 시민공원 이미지">
+                    <div>
+                        <p>#시민공원</p>
+                    </div>
+                </a></li>
+            <li data-aos="flip-left" data-aos-duration="800" data-aos-delay="200"><a href="#none">
+                    <img src="./images/sub2/popular_location_bridge.jpg" alt="인기검색어 광안대교 이미지">
+                    <div>
+                        <p>#광안리</p>
+                    </div>
+                </a></li>
+            <li data-aos="flip-left" data-aos-anchor=".location" data-aos-duration="800" data-aos-delay="400"><a
+                    href="#none">
+                    <img src="./images/sub2/popular_location_temple.jpg" alt="인기검색어 범어사 이미지">
+                    <div>
+                        <p>#범어사</p>
+                    </div>
+                </a></li>
+            <li data-aos="flip-left" data-aos-anchor=".location" data-aos-duration="800" data-aos-delay="500"><a
+                    href="#none">
+                    <img src="./images/sub2/popular_location_museum.jpg" alt="인기검색어 커피박물관 이미지">
+                    <div>
+                        <p>#국제커피박물관</p>
+                    </div>
+                </a></li>
+            <li data-aos="flip-left" data-aos-anchor=".location" data-aos-duration="800" data-aos-delay="600"><a
+                    href="#none">
+                    <img src="./images/sub2/popular_location_momos.jpg" alt="인기검색어 모모스 이미지">
+                    <div>
+                        <p>#모모스 로스터리</p>
+                    </div>
+                </a></li>
+            <li data-aos="flip-left" data-aos-duration="800" data-aos-delay="300"><a href="#none">
+                    <img src="./images/sub2/popular_location_train.jpg" alt="인기검색어 해변열차 이미지">
+                    <div>
+                        <p>#해운대 해변열차</p>
+                    </div>
+                </a></li>
+        </ul>
+    </div><!-- popular -->
+    <div id="mid_wrapper">
+        <div id="new_cafe" data-aos="zoom-in-right" data-aos-duration="800">
+            <h2>NEW !</h2>
+            <h4>새로 등록된 카페</h4>
+            <h1><span>>></span> 파르파</h1>
+            <p>많은 분들의 등록 요청이 있었던 카페입니다. 소담한 카페지만 사장님 두분의 열정이 대단했어요! 한잔의 좋은 커피가 주는 힘을 믿기에, 커피에 진심을 다하는 파르파입니다. </p>
+            <a href="#none">카페 자세히보기 ></a>
+            <img src="./images/sub2/new_cafe_logo.jpg" alt="카페 로고">
+        </div><!-- new_cafe -->
+        <div id="search_top" data-aos="zoom-in-left" data-aos-duration="800">
+            <h1>Cafe in BUSAN _ <span>Let's find the new enjoyment!</span></h1>
+            <form action="#none">
+                <input type="text" placeholder="검색어를 입력하세요">
+                <div class="district">
+                    <button type="button" class="btn_district">지역구 선택</button>
+                    <ol class="district_contents">
+                        <li>
+                            <input type="checkbox" id="district1" name="district">
+                            <label for="district1">강서구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district2" name="district">
+                            <label for="district2">금정구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district3" name="district">
+                            <label for="district3">기장군</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district4" name="district">
+                            <label for="district4">남구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district5" name="district">
+                            <label for="district5">동구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district6" name="district">
+                            <label for="district6">동래구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district7" name="district">
+                            <label for="district7">부산진구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district8" name="district">
+                            <label for="district8">북구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district9" name="district">
+                            <label for="district9">사상구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district10" name="district">
+                            <label for="district10">사하구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district11" name="district">
+                            <label for="district11">서구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district12" name="district">
+                            <label for="district12">수영구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district13" name="district">
+                            <label for="district13">연제구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district14" name="district">
+                            <label for="district14">영도구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district15" name="district">
+                            <label for="district15">중구</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="district16" name="district">
+                            <label for="district16">해운대구</label>
+                        </li>
+                    </ol><!-- district_contents -->
+                </div><!-- district -->
+                <div class="option">
+                    <button type="button" class="btn_option">옵션 선택</button>
+                    <ol class="option_contents">
+                        <li>
+                            <input type="checkbox" id="option1" name="option">
+                            <label for="option1">디카페인</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="option2" name="option">
+                            <label for="option2">핸드드립</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="option3" name="option">
+                            <label for="option3">자체 로스터리</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="option4" name="option">
+                            <label for="option4">스페셜티 메뉴</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="option5" name="option">
+                            <label for="option5">블랜딩 원두</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="option6" name="option">
+                            <label for="option6">아이스</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="option7" name="option">
+                            <label for="option7">라떼</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="option8" name="option">
+                            <label for="option8">에스프레소</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="option9" name="option">
+                            <label for="option9">콜드브루</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="option10" name="option">
+                            <label for="option10">독특한 커피</label>
+                        </li>
+                    </ol><!-- option_contents -->
+                </div><!-- option -->
+                <div class="submit">
+                    <button type="submit" class="btn_submit" action="#none">검색</button>
+                </div><!-- submit -->
+            </form>
+            <ul class="tag">
+                <li>#산미</li>
+                <li>#쓴맛</li>
+                <li>#고소한맛</li>
+                <li>#약배전</li>
+                <li>#중배전</li>
+                <li>#강배전</li>
+                <li>#견과류</li>
+                <li>#초콜릿</li>
+                <li>#플로럴</li>
+                <li>#과일향</li>
+            </ul>
+        </div><!-- search_top -->
+    </div><!-- mid_wrapper -->
+    <div class="overflow-clip">
+        <div class="contents_wrapper">
+            <div id="search_side">
+                <h1>취향대로 찾는</h1>
+                <form action="#none">
+                    <div class="district">
+                        <button type="button" class="btn_district">지역구 선택</button>
+                        <ol class="district_contents">
+                            <li>
+                                <input type="checkbox" id="district1" name="district">
+                                <label for="district1">강서구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district2" name="district">
+                                <label for="district2">금정구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district3" name="district">
+                                <label for="district3">기장군</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district4" name="district">
+                                <label for="district4">남구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district5" name="district">
+                                <label for="district5">동구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district6" name="district">
+                                <label for="district6">동래구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district7" name="district">
+                                <label for="district7">부산진구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district8" name="district">
+                                <label for="district8">북구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district9" name="district">
+                                <label for="district9">사상구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district10" name="district">
+                                <label for="district10">사하구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district11" name="district">
+                                <label for="district11">서구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district12" name="district">
+                                <label for="district12">수영구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district13" name="district">
+                                <label for="district13">연제구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district14" name="district">
+                                <label for="district14">영도구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district15" name="district">
+                                <label for="district15">중구</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="district16" name="district">
+                                <label for="district16">해운대구</label>
+                            </li>
+                        </ol><!-- district_contents -->
+                    </div><!-- district -->
+                    <div class="option">
+                        <button type="button" class="btn_option">옵션 선택</button>
+                        <ol class="option_contents">
+                            <li>
+                                <input type="checkbox" id="option1" name="option">
+                                <label for="option1">디카페인</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="option2" name="option">
+                                <label for="option2">핸드드립</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="option3" name="option">
+                                <label for="option3">자체 로스터리</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="option4" name="option">
+                                <label for="option4">스페셜티 메뉴</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="option5" name="option">
+                                <label for="option5">블랜딩 원두</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="option6" name="option">
+                                <label for="option6">아이스</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="option7" name="option">
+                                <label for="option7">라떼</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="option8" name="option">
+                                <label for="option8">에스프레소</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="option9" name="option">
+                                <label for="option9">콜드브루</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="option10" name="option">
+                                <label for="option10">독특한 커피</label>
+                            </li>
+
+                        </ol><!-- option_contents -->
+                    </div><!-- option -->
+                    <input type="text" placeholder="검색어를 입력하세요">
+                    <button type="submit" class="submit">검색</button>
+                </form>
+                <ul class="tag">
+                    <li>#산미</li>
+                    <li>#쓴맛</li>
+                    <li>#고소한맛</li>
+                    <li>#약배전</li>
+                    <li>#중배전</li>
+                    <li>#강배전</li>
+                    <li>#견과류</li>
+                    <li>#초콜릿</li>
+                    <li>#플로럴</li>
+                    <li>#과일향</li>
+                </ul>
+                <div class="request">
+                    <a href="#none">
+                        <h3>찾는 카페가 없나요?</h3>
+                        <p>카페 신규 등록 제안하기 ></p>
+                    </a>
+                </div><!-- request -->
+            </div><!-- search_side -->
+            <div id="list">
+                <div class="top_text" data-aos="fade-up" data-aos-duration="800">
+                    <h3>전체 502건</h3>
+                    <form class="sort" action="#none">
+                        <button type="button">조회순</button>
+                        <button type="button">리뷰순</button>
+                        <button type="button">찜순</button>
+                    </form>
+                </div><!-- top_text -->
+                <ul class="cafe">
+                    <li data-aos="fade-up" data-aos-duration="600">
+                        <div class="img_box">
+                            <img src="./images/sub2/cafe_img_Filled.jpg" alt="Filled 카페 이미지">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <p class="address">수영구 망미동</p>
+                            <h1 class="name">Filled coffee stand</h1>
+                            <p class="about"><span>"우리의 커피가 당신의 삶에 채워질 작은 행복이길 바래요"</span><br>
+                                약 7~8평의 작은 스몰 로스터리로 필터커피의 라인업은
+                                다채로운 향미와 단맛 위주의 구성이며 소량 로스팅으로
+                                신선하고 다양한 산지별 필터커피를 제공합니다.
+                            </p>
+                            <p class="like">200명이 이 카페를 좋아해요</p>
+                            <p class="review">“가게가 작지만 커피 내리는 과정을 가까이에서 볼 수 있어서...” </p>
+                            <h3 class="more"><a href="#none">리뷰 153건 보러가기</a></h3>
+                            <p class="bookmark"></p>
+                        </div><!-- text_box -->
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="600">
+                        <div class="img_box">
+                            <img src="./images/sub2/cafe_img_waveon.jpg" alt="웨이브온 카페 이미지">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <p class="address">기장군 월내리</p>
+                            <h1 class="name">웨이브온 커피</h1>
+                            <p class="about">웨이브온 커피는 '바다, 그리고 파도 위의 휴식'을 슬로건으로 하는 스페셜티 커피 로스터리 카페입니다. 다양한 커피를 소개하고,
+                                느낄 수 있는 곳을 위해 다양한 활동을 하는 스페셜티 커피 로스터리가 목표로 합니다. 아름다운 해안풍경으로 유명하지만 맛에서도 부족함이 없습니다.</p>
+                            <p class="like">400명이 이 카페를 좋아해요</p>
+                            <p class="review">“바다뷰로 유명해서 갔고 솔직히 기대 안했는데 커피맛이...” </p>
+                            <h3 class="more"><a href="#none">리뷰 330건 보러가기</a></h3>
+                            <p class="bookmark"></p>
+                        </div><!-- text_box -->
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="600">
+                        <div class="img_box">
+                            <img src="./images/sub2/cafe_img_baunova.jpg" alt="바우노바 카페 이미지">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <p class="address">중구 중앙동</p>
+                            <h1 class="name">바우노바</h1>
+                            <p class="about">커피 애호가는 물론 직장인들도 많이 찾는 라떼 맛집입니다. 바테이블 자리에서는 바리스타의 섬세한 핸드드립 과정을 볼 수가 있습니다.
+                                직접
+                                로스팅한 원두로 만든 드립백과 콜드브루의 품질이 높습니다. 특히 디카페인이 맛이 깔끔하여 추천드려요. </p>
+                            <p class="like">337명이 이 카페를 좋아해요</p>
+                            <p class="review">“여기서 로스팅 배웠다는 바리스타가 많다고 하더라구요” </p>
+                            <h3 class="more"><a href="#none">리뷰 400건 보러가기</a></h3>
+                            <p class="bookmark"></p>
+                        </div><!-- text_box -->
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="600">
+                        <div class="img_box">
+                            <img src="./images/sub2/cafe_img_alike.jpg" alt="어라이크 카페 이미지">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <p class="address">부산진구 전포동</p>
+                            <h1 class="name">어라이크</h1>
+                            <p class="about">호주 시드니 Editiom coffee Roasrters 에서 경력을 쌓은 바리스타가 운영하는 카페입니다. 핸드드립과 블랙커피 위주로
+                                운영을
+                                하고 있으며 규모는 작지만 직접 생두 선별과 로스팅을 하고있습니다. </p>
+                            <p class="like">157명이 이 카페를 좋아해요</p>
+                            <p class="review">“호주식 커피를 여기서 처음 접했는데 너무 맛있었어요!” </p>
+                            <h3 class="more"><a href="#none">리뷰 136건 보러가기</a></h3>
+                            <p class="bookmark"></p>
+                        </div><!-- text_box -->
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="600">
+                        <div class="img_box">
+                            <img src="./images/sub2/cafe_img_command.jpg" alt="커맨드 카페 이미지">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <p class="address">사하구 다대동</p>
+                            <h1 class="name">커맨드 커피</h1>
+                            <p class="about">늘 곁에 두고 싶은 데일리 커피를 지향하는 카페입니다. 인도산 생두를 산지에서 직접 선별하여 전문으로 국내에 수입 및 유통하고
+                                있습니다. 제철
+                                생두를 직접 로스팅하기 때문에 풍부한 크레마와 신선한 플레이버를 느낄 수있습니다. </p>
+                            <p class="like">500명이 이 카페를 좋아해요</p>
+                            <p class="review">“새로 연 큰 매장에 갔는데 입구에 들어서자마자 커피향이...” </p>
+                            <h3 class="more"><a href="#none">리뷰 433건 보러가기</a></h3>
+                            <p class="bookmark"></p>
+                        </div><!-- text_box -->
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="600">
+                        <div class="img_box">
+                            <img src="./images/sub2/cafe_img_772.jpg" alt="772 카페 이미지">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <p class="address">부산진구</p>
+                            <h1 class="name">클래시파이드772</h1>
+                            <p class="about">브루잉을 전문으로 하는 Coffee & Tea Bar 입니다. 나무사이로, 앤트러사이트, 커피리브레, 펠트, 프릳츠에서 로스팅한 싱글
+                                오리진
+                                커피를 핸드드립으로 제공하며, 2주 간격으로 변화되는 싱글 오리진 라인업을 선보이고 있어 언제나 다양한 커피를 즐기실 수 있습니다.</p>
+                            <p class="like">120명이 이 카페를 좋아해요</p>
+                            <p class="review">“스틸필터에 내려서 커피 오일이 훨씬 진하게 느껴지는게 색달랐어요” </p>
+                            <h3 class="more"><a href="#none">리뷰 227건 보러가기</a></h3>
+                            <p class="bookmark"></p>
+                        </div><!-- text_box -->
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="600">
+                        <div class="img_box">
+                            <img src="./images/sub2/cafe_img_blackup.jpg" alt="블랙업 카페 이미지">
+                        </div><!-- img_box -->
+                        <div class="text_box">
+                            <p class="address">사하구 을숙도</p>
+                            <h1 class="name">블랙업 커피</h1>
+                            <p class="about">경남권을 기반으로 하며 부산에는 4개 지점이 있습니다. 대형 카페에 속하지만 맛의 퀄리티를 유지하기 위한 노력을 아끼지 않습니다.
+                                블루리본
+                                서베이 부산 맛집에 선정되기도 했습니다. 특히 시그니처 메뉴인 해수염커피는 생크림의 부드러운 맛과 커피의 풍미가 잘 어우러져 인기가 있습니다. </p>
+                            <p class="like">760명이 이 카페를 좋아해요</p>
+                            <p class="review">"지점 많은 대형카페가 됐는데도 커피맛이 잘 유지되고 있어서 좋아요” </p>
+                            <h3 class="more"><a href="#none">리뷰 550건 보러가기</a></h3>
+                            <p class="bookmark"></p>
+                        </div><!-- text_box -->
+                    </li>
+                    <div class="banner" data-aos="fade-left" data-aos-duration="800">
+                        <a href="./index.html#app">
+                            <img src="./images/sub2/banner_re.png" alt="배너 이미지">
+                            <img src="./images/sub2/banner_icon.png" alt="배너 아이콘">
+                        </a>
+                    </div><!-- banner -->
+                </ul>
+                <form action="#none">
+                    <button type="button" class="btn_more">더보기 <span>+</span></button>
+                </form>
+            </div><!-- list -->
+        </div><!-- contents_wrapper -->
+    </div><!-- overflow-hidden -->
+    <footer>
+        <!-- 움직이는 배경 -->
+        <div class="wave1"></div><!-- wave1 -->
+        <div class="wave2"></div><!-- wave2 -->
+        <div class="footer_inner">
+            <!--  포지션, 가운데정렬 -->
+            <h1 class="footer_logo"><a href="./index.html"><img src="./images/index/footer_logo.png" alt="푸터 로고"></a>
+            </h1>
+            <div class="info">
+                <p>
+                    <span>회사명</span>&nbsp; 주식회사 카페인부산 &nbsp; &nbsp;<span>대표자</span>&nbsp; 이영윤 이재협&nbsp; &nbsp;
+                    <span>주소</span>&nbsp;
+                    부산광역시 중구 중앙대로 26 기업성장센터 10층
+                    1005호<br>
+                    <span>문의전화</span>&nbsp; 1588-1650 &nbsp; &nbsp;<span>상담가능시간</span>&nbsp; 10:00 ~ 19:00 (Break 13:00
+                    ~
+                    14:00)&nbsp; &nbsp;
+                    <span>문의메일</span> &nbsp;ask@caffein_busan.com
+                </p>
+                <ul>
+                    <li><a href="https://www.kakaocorp.com/page/service/service/KakaoTalk" target="_blank"><img
+                                src="./images/index/icon_kakao.png" alt="카카오톡 아이콘"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/index/icon_insta.png"
+                                alt="인스타 아이콘"></a></li>
+                    <li><a href="https://twitter.com/X" target="_blank"><img src="./images/index/icon_x.png"
+                                alt="X 아이콘"></a></li>
+                </ul>
+            </div><!-- info -->
+            <ol class="footer_menu">
+                <li><a href="#none">이용약관</a></li>
+                <li><a href="#none">개인정보처리방침</a></li>
+                <li><a href="#none">비즈니스 문의</a></li>
+            </ol>
+            <p>© 2024 Caffein Busan All rights reserved.</p>
+        </div><!-- footer_inner -->
+    </footer>
+    <!-- 헤더 배경 변화 -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- 제이쿼리 라이브러리 파일_헤더 서브메뉴 -->
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="./js/common_script.js"></script>
+    <script src="./js/sub2_script.js"></script>
+</body>
+
+</html>

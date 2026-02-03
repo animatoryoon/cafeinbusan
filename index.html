@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1450">
+    <title>카페인부산</title>
+    <!-- 폰트: 프리텐다드 -->
+    <link rel="stylesheet" href="./fonts/pretendard.css">
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- 추천카페 스와이퍼 응용1, 소식배너 응용5-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_inner">
+            <a href="./index.html" id="logo"><img src="./images/logo.png" alt="로고"></a>
+            <ul id="gnb">
+                <li>
+                    <a href="./sub1.html">ABOUT US</a>
+                    <ul class="sub">
+                        <li><a href="./sub1.html#brand">브랜드소개</a></li>
+                        <li><a href="./sub1.html#flow_text">크루소개</a></li>
+                        <li><a href="./sub1.html#app_feature">앱 안내</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub2.html">SEARCH</a>
+                    <ul class="sub">
+                        <li><a href="./sub2.html#popular">인기 검색</a></li>
+                        <li><a href="./sub2.html#mid_wrapper">카페 리스트</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub3.html">MAGAZINE</a>
+                    <ul class="sub">
+                        <li><a href="./sub3.html#news">NEWS</a></li>
+                        <li><a href="./sub3.html#anchor_people">PEOPLE</a></li>
+                        <li><a href="./sub3.html#special">SPECIAL</a></li>
+                        <li><a href="./sub3.html#all">ALL</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./sub4_1.html">SHOP</a>
+                    <ul class="sub">
+                        <li><a href="./sub4_1.html#shop">전체보기</a></li>
+                        <li><a href="./sub4_2.html#shop">자체 상품</a></li>
+                        <li><a href="./sub4_3.html#shop">부산카페 상품</a></li>
+                        <li><a href="./sub4_4.html#shop">굿즈</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ol id="header_menu">
+                <li>
+                    <form action="#">
+                        <input type="search">
+                    </form>
+                </li>
+                <li><a href="#none"></a></li>
+                <li><a href="#none"></a></li>
+            </ol>
+        </div><!-- header_inner -->
+    </header>
+    <div id="fixed_btn">
+        <p id="history_btn"><a href="#none"><img src="./images/icon_history.png" alt="최근본 버튼"></a></p>
+        <p id="top_btn"><a href="#none"><img src="./images/icon_top.png" alt="탑 버튼"></a></p>
+        <div id="history_list">
+            <!-- 배경 -->
+            <h3>최근 본 카페
+                <a class="close" href="#none"><img src="./images/icon_close.png" alt="닫기 아이콘"></a>
+            </h3>
+            <ul>
+                <li>
+                    <a href="./sub2.html#mid_wrapper">
+                        <img src="./images/history_list1.jpg" alt="최근본카페1">
+                        <p>커맨드커피</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub2.html#mid_wrapper">
+                        <img src="./images/history_list2.jpg" alt="최근본카페2">
+                        <p>말루비아</p>
+                    </a>
+                </li>
+            </ul>
+            <p class="close"></p>
+        </div><!-- history_list -->
+    </div><!-- fixed_btn -->
+    <div id="top main_banner" class="swiper mb">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide bg1_brand">
+                <div class="mb_inner">
+                    <div class="text">
+                        <h2>
+                            카페의 기본은 커피<br>
+                            커피의 본질은 맛.
+                        </h2>
+                        <p class="line"></p>
+                        <h1>
+                            카페인부산이 소개하는<br>
+                            <span>진짜 커피</span>를 만나보세요
+                        </h1>
+                        <p>
+                            <a class="btn_brand" href="./sub1.html">브랜드 소개 보러가기</a>
+                        </p>
+                    </div><!-- text -->
+                </div><!-- mb_inner -->
+            </div><!-- slide -->
+            <div class="swiper-slide bg2_product">
+                <div class="mb_inner">
+                    <div class="text">
+                        <img src="./images/index/mb_product_new.png" alt="신제품출시 아이콘">
+                        <h1>카페인부산<br>스페셜 에디션</h1>
+                        <p>부산의 명소에서 영감을 받은 다양한 풍미를 만나보세요</p>
+                        <p>Roasted in Busan</p>
+                        <a class="btn_more" href="./sub4_2.html">자세히 보기 ></a>
+                        <img class="star1" src="./images/index/mb_product_star1.png" alt="별 이미지1">
+                        <img class="star2" src="./images/index/mb_product_star2.png" alt="별 이미지2">
+                        <img class="star3" src="./images/index/mb_product_star3.png" alt="별 이미지3">
+                    </div><!-- text -->
+                    <div class="img">
+                        <img src="./images/index/mb_product_package.png" alt="패키지 이미지">
+                    </div><!-- img -->
+                </div><!-- mb_inner -->
+            </div><!-- slide -->
+        </div><!-- wrapper -->
+        <!--화살표추가-->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!--도트를 추가하고 싶을때-->
+        <div class="swiper-pagination"></div>
+    </div><!--mb-->
+    <div class="contents_bg">
+        <div id="search">
+            <div class="moving_title">
+                <span>이</span>
+                <span>번</span>
+                <span>엔</span>
+                <span>&nbsp;</span>
+                <span>어</span>
+                <span>디</span>
+                <span>로</span>
+                <span>&nbsp;</span>
+                <span>가</span>
+                <span>볼</span>
+                <span>까</span>
+                <span>요</span>
+                <span>?</span>
+                <img src="./images/index/emoji_eyes.gif" alt="눈 이모지">
+            </div><!-- moving_title -->
+            <form action="./sub2.html#mid_wrapper">
+                <input class="search_bar" type="search" placeholder="동네, 명소, 카페 이름을 검색해보세요">
+                <button class="search_btn" type="submit">
+                    <img src="./images/index/icon_search.png" alt="검색 버튼">
+                </button>
+            </form>
+            <!-- 장소 포지션 -->
+            <div class="location spot1" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800"
+                data-aos-easing="ease-out-back">
+                <a href="./sub2.html">
+                    <img src="./images/index/search_yeon.png" alt="연경재 이미지">
+                    <img src="./images/index/search_yeon_hover.png" alt="연경재 호버 이미지">
+                </a>
+            </div><!-- location1 -->
+            <div class="location spot2" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-out-back"
+                data-aos-duration="800">
+                <a href="./sub2.html">
+                    <img src="./images/index/search_village.png" alt="감천 이미지">
+                    <img src="./images/index/search_village_hover.png" alt="감천 호버 이미지">
+                </a>
+            </div><!-- location2 -->
+            <div class="location spot3" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800"
+                data-aos-easing="ease-out-back">
+                <a href="./sub2.html">
+                    <img src="./images/index/search_centum.png" alt="센텀 이미지">
+                    <img src="./images/index/search_centum_hover.png" alt="센텀 호버이미지">
+                </a>
+            </div><!-- location3 -->
+            <div class="location spot4" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800"
+                data-aos-easing="ease-out-back">
+                <a href="./sub2.html">
+                    <img src="./images/index/search_dadeapo.png" alt="다대포 이미지">
+                    <img src="./images/index/search_dadeapo_hover.png" alt="다대포 호버 이미지">
+                </a>
+            </div><!-- location4 -->
+            <div class="location spot5" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800"
+                data-aos-easing="ease-out-back">
+                <a href="./sub2.html">
+                    <img src="./images/index/search_momos.png" alt="모모스 이미지">
+                    <img src="./images/index/search_momos_hover.png" alt="모모스 호버 이미지">
+                </a>
+            </div><!-- location5 -->
+            <div class="location spot6" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800"
+                data-aos-easing="ease-out-back">
+                <a href="./sub2.html">
+                    <img src="./images/index/search_youngdo.png" alt="영도 이미지">
+                    <img src="./images/index/search_youngdo_hover.png" alt="영도 호버 이미지">
+                </a>
+            </div><!-- location6 -->
+            <img class="bird1" src="./images/index/ob_bird_S.png" alt="갈매기 이미지1">
+            <img class="bird2" src="./images/index/ob_bird_M.png" alt="갈매기 이미지2">
+            <img class="bird3" src="./images/index/ob_bird_L.png" alt="갈매기 이미지3">
+        </div><!-- search -->
+        <div id="recommend" data-aos="fade-up" data-aos-duration="1000">
+            <div class="text_box">
+                <h2 class="sub_title">카페인부산이<br>자신있게 추천하는</h2>
+                <h1 class="title">카부's PICK
+                    <img class="emoji" src="./images/index/emoji_thumb.png" alt="엄지 이모지">
+                </h1>
+                <p>전문 평가단이 직접 방문하여<br>맛보고 엄선했습니다 </p>
+                <a href="./sub2.html#mid_wrapper">카페 전체 보기 ></a>
+            </div><!-- text_box -->
+            <div id="swiper_box">
+                <!--마진오토-->
+                <div class="swiper swiper_recommend">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/index/recmd_momos.jpg" alt="추천카페1">
+                            <div class="hover_box bg1">
+                                <h2>온천천</h2>
+                                <h1>MOMOS</h1>
+                                <p class="line"></p>
+                                <p class="text">
+                                    월드 바리스타 챔피언으로 유명한 카페입니다. <br>주택을 개조하여 조경이 고즈넉합니다. 언제나 커피를 마시는 사람들로 북적이지만 그래서 오히려
+                                    티타임을
+                                    즐기기엔 좋은 분위기입니다.
+                                </p>
+                                <p><a class="btn" href="./sub2.html#mid_wrapper">보러가기</a></p>
+                            </div><!-- hover_box -->
+                        </div><!-- slide -->
+                        <div class="swiper-slide">
+                            <img src="./images/index/recmd_notice.jpg" alt="추천카페2">
+                            <div class="hover_box bg2">
+                                <h2>중앙동</h2>
+                                <h1>NOTICE</h1>
+                                <p class="line"></p>
+                                <p class="text">
+                                    1950년대에 쌀창고로 쓰이던 건물을 개조한 카페입니다. 복합 문화공간이면서도 다양한 원두를 취급하고 있어<br>
+                                    골라 마시는 재미가 있습니다.
+                                </p>
+                                <p><a class="btn" href="./sub2.html#mid_wrapper">보러가기</a></p>
+                            </div><!-- hover_box -->
+                        </div><!-- slide -->
+                        <div class="swiper-slide">
+                            <img src="./images/index/recmd_gabea.jpg" alt="추천카페3">
+                            <div class="hover_box bg3">
+                                <h2>망미동</h2>
+                                <h1>가배향화</h1>
+                                <p class="line"></p>
+                                <p class="text">
+                                    주택가 사이에 자리잡은 2층 건물에는 매일 아침 러닝을 하는 사장님이 부지런히 커피를 내립니다. 꾸덕한 라떼가 일품이며 핸드드립 메뉴는 융드립으로 내려
+                                    맛이 보다 풍부합니다.
+                                </p>
+                                <p><a class="btn" href="./sub2.html#mid_wrapper">보러가기</a></p>
+                            </div><!-- hover_box -->
+                        </div><!-- slide -->
+                        <div class="swiper-slide">
+                            <img src="./images/index/recmd_mark.jpg" alt="추천카페4">
+                            <div class="hover_box bg4">
+                                <h2>중앙동</h2>
+                                <h1>mark</h1>
+                                <p class="line"></p>
+                                <p class="text">
+                                    조금은 구석진 골목에 위치한 작은 가게이지만 유리창에 빼곡히 붙은 손님들의 포스트잇에서 이 카페의 내력을 유추할 수 있습니다. 직장인들이 숨은 맛집으로
+                                    추천하는 곳입니다.
+                                </p>
+                                <p><a class="btn" href="./sub2.html#mid_wrapper">보러가기</a></p>
+                            </div><!-- hover_box -->
+                        </div><!-- slide -->
+                    </div><!-- wrapper -->
+                    <div class="swiper-button-next recommend_next"></div>
+                    <div class="swiper-button-prev recommend_prev"></div>
+                </div><!--swiper_recommend-->
+            </div><!--swiper_box-->
+        </div><!-- recommend -->
+        <div id="curation">
+            <div class="curation_inner">
+                <h1 class="title" data-aos="fade-up" data-aos-duration="800">카부's 큐레이션
+                    <img class="emoji" src="./images/index/emoji_pin.png" alt="핀 이모지">
+                </h1>
+                <h2 class="sub_title" data-aos="fade-up" data-aos-duration="900">다양한 테마로 부산의 카페를 탐색해보세요!</h2>
+                <ul class="curation_list1" data-aos="fade-up" data-aos-duration="1000">
+                    <li>
+                        <a href="./sub2.html">
+                            <p>
+                                <img src="./images/index/curation_img1.png" alt="큐레이션 망미단길 이미지">
+                            </p>
+                            <div class="text">
+                                <h3>망미단길 카페 모아보기</h3>
+                                <p>주택 사이 골목으로 퍼지는 커피향</p>
+                            </div><!-- text -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sub2.html">
+                            <p>
+                                <img src="./images/index/curation_img2.png" alt="큐레이션 독특한 메뉴 이미지">
+                            </p>
+                            <div class="text">
+                                <h3>흔치않은 독특한 메뉴들</h3>
+                                <p>아아와 라떼가 지루해졌다면 색다르게</p>
+                            </div><!-- text -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sub2.html">
+                            <p>
+                                <img src="./images/index/curation_img3.png" alt="큐레이션 라떼 이미지">
+                            </p>
+                            <div class="text">
+                                <h3>고소한 라떼 맛집.zip</h3>
+                                <p>원래 기본이 제일 어렵거든요</p>
+                            </div><!-- text -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sub2.html">
+                            <p>
+                                <img src="./images/index/curation_img4.png" alt="큐레이션 핸드드립 이미지">
+                            </p>
+                            <div class="text">
+                                <h3>핸드드립, 좋아하세요?</h3>
+                                <p>기다림까지 커핑의 일부가 되는</p>
+                            </div><!-- text -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sub2.html">
+                            <p>
+                                <img src="./images/index/curation_img5.png" alt="큐레이션 산미 이미지">
+                            </p>
+                            <div class="text">
+                                <h3>산미 러버는 이리로!</h3>
+                                <p>약배전 원두의 매력을 보여줄게 </p>
+                            </div><!-- text -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sub2.html">
+                            <p>
+                                <img src="./images/index/curation_img6.png" alt="큐레이션 바다 이미지">
+                            </p>
+                            <div class="text">
+                                <h3>바다에서 영감받은 커피 </h3>
+                                <p>부산 바다를 담은 시그니처 메뉴 모음!</p>
+                            </div><!-- text -->
+                        </a>
+                    </li>
+                </ul><!-- curation_list1 -->
+                <ol class="curation_list2" data-aos="fade-up" data-aos-duration="1000">
+                    <li>
+                        <a href="./sub2.html">
+                            <div class="text">
+                                <h2>남포동 옆<br>
+                                    중앙동 빌딩 사이</h2>
+                                <p>직장인이 찾는 숨은 맛집의 핫플</p>
+                            </div><!-- text -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sub2.html">
+                            <div class="text">
+                                <h2>카페인에 약하다고<br>
+                                    슬퍼하지 마세요</h2>
+                                <p>디카페인 메뉴가 있는 카페를 모아봤어요</p>
+                            </div><!-- text -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sub2.html">
+                            <div class="text">
+                                <h2>세계에서 활약하는<br>
+                                    바리스타의 손맛</h2>
+                                <p>커피에 담긴 진심과 추구하는 가치까지</p>
+                            </div><!-- text -->
+                        </a>
+                    </li>
+                </ol><!-- curation_list2 -->
+            </div><!-- curantion_inner -->
+        </div><!-- curation -->
+    </div><!-- contents_bg -->
+    <div id="news">
+        <!--마진오토-->
+        <div class="swiper card swiper_news">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="https://www.worldofcoffee.co.kr/" target="_blank"><img
+                            src="./images/index/news_banner_barista.png" alt="뉴스배너1_바리스타"></a>
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="http://www.coffeeshow.co.kr/new/" target="_blank"><img
+                            src="./images/index/news_banner_show.png" alt="뉴스배너2_카페쇼"></a>
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub2.html#mid_wrapper" target="_blank"><img src="./images/index/news_banner_review.png"
+                            alt="뉴스배너3_리뷰"></a>
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="https://www.worldofcoffee.co.kr/" target="_blank"><img
+                            src="./images/index/news_banner_barista.png" alt="뉴스배너1_바리스타"></a>
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub2.html#mid_wrapper" target="_blank"><img src="./images/index/news_banner_review.png"
+                            alt="뉴스배너3_리뷰"></a>
+                </div><!-- slide -->
+            </div><!-- wrapper -->
+            <!--도트를 추가하고 싶을때-->
+            <div class="swiper-pagination"></div>
+        </div><!-- swiper_news-->
+    </div><!--news-->
+    <div id="review">
+        <h1 class="title" data-aos="fade-up" data-aos-duration="800">카페인러버들의 리뷰
+            <img class="emoji" src="./images/index/emoji_talk.png" alt="말풍선 이모지">
+        </h1>
+        <h2 class="sub_title" data-aos="fade-up" data-aos-duration="800">다양한 후기를 보면서 다음에 가볼 카페를 미리
+            찜해두세요!</h2>
+        <div class="container" data-aos="fade-up" data-aos-duration="800">
+            <ul class="review_box left_box">
+                <li>
+                    <img src="./images/index/review_photo1.jpg" alt="리뷰이미지1">
+                    <img class="blue_bg horizon" src="./images/index/review_bg.png" alt="파란배경">
+                    <div class="contents horizon">
+                        <div class="wrapper">
+                            <div class="member">
+                                <img src="./images/index/review_profile1.png" alt="리뷰1 프로필 이미지">
+                                <p>불면증부엉이님</p>
+                            </div><!-- member -->
+                            <p class="text">
+                                <a href="./sub2.html#mid_wrapper">전포에서 유명한 카페라길래 일부러 찾아가봤는데 만족스러웠어요!! 원래 블랜딩 원두를 선호하는 편은
+                                    아닌데 맛이 깔끔하면서도
+                                    풍부하더라구요. 자체 로스팅 원두도 종류가 많아서 취향껏 골라먹기 좋아 보였어요. 사람이 많아서 바쁜 와중에도 커스텀 주문 꼼꼼하게 챙겨주셔서
+                                    좋았어요. 플랫화이트에 우유 아주 적게해서 마시는 걸 좋아하는데 찰떡같이 알아듣고 제조해주셔서 맛있게 즐기고 왔습니다!
+                                    다음에 또 가보려구요.</a>
+                            </p>
+                        </div><!-- wrapper -->
+                        <a class="cafe" href="./sub2.html#mid_wrapper">
+                            <p>전포동</p>
+                            <p>WERK</p>
+                            <p>보러가기 ></p>
+                        </a>
+                    </div><!-- contents -->
+                </li><!-- 리뷰1 -->
+                <li>
+                    <img src="./images/index/review_photo2.jpg" alt="리뷰이미지2">
+                    <img class="blue_bg horizon" src="./images/index/review_bg.png" alt="파란배경">
+                    <div class="contents horizon">
+                        <div class="wrapper">
+                            <div class="member">
+                                <img src="./images/index/review_profile2.png" alt="리뷰2 프로필 이미지">
+                                <p>롯데언제우승해님</p>
+                            </div><!-- member -->
+                            <p class="text">
+                                <a href="./sub2.html#mid_wrapper">의외로 라떼 잘하는 집 찾기 어렵더라구요. 저는 라떼에서 우유에 물 탄 것 같은 밍밍한 맛 정말
+                                    싫어하는데 여기는 그런 생각
+                                    안들고 맛있었어요!! 약간 산미있는 원두가 고소한 우유랑 잘 어울려서 좋았어요. </a>
+                            </p>
+                        </div><!-- wrapper -->
+                        <a class="cafe" href="./sub2.html#mid_wrapper">
+                            <p>망미동</p>
+                            <p>가배향화</p>
+                            <p>보러가기 ></p>
+                        </a>
+                    </div><!-- contents -->
+                </li><!-- 리뷰2 -->
+                <li>
+                    <img src="./images/index/review_photo4.jpg" alt="리뷰이미지4">
+                    <img class="blue_bg horizon" src="./images/index/review_bg.png" alt="파란배경">
+                    <div class="contents horizon">
+                        <div class="wrapper">
+                            <div class="member">
+                                <img src="./images/index/review_profile4.png" alt="리뷰4 프로필 이미지">
+                                <p>카페인취약자님</p>
+                            </div><!-- member -->
+                            <p class="text">
+                                <a href="./sub2.html#mid_wrapper">사장님 라떼 아트 올리는 실력보면 답이 나옵니다. 같이 간 친구는 원래 커피 좋아하는 편 아닌데도
+                                    한입 마시자마자 눈이 땡그래져서
+                                    다음에도 또 같이 오자고 미리 약속 잡았어요.</a>
+                            </p>
+                        </div><!-- wrapper -->
+                        <a class="cafe" href="./sub2.html#mid_wrapper">
+                            <p>다대포</p>
+                            <p>커맨드커피</p>
+                            <p>보러가기 ></p>
+                        </a>
+                    </div><!-- contents -->
+                </li><!-- 리뷰4 -->
+                <li>
+                    <img src="./images/index/review_photo5.jpg" alt="리뷰이미지5">
+                    <img class="blue_bg horizon" src="./images/index/review_bg.png" alt="파란배경">
+                    <div class="contents horizon">
+                        <div class="wrapper">
+                            <div class="member">
+                                <img src="./images/index/review_profile5.png" alt="리뷰5 프로필 이미지">
+                                <p>최애아바라님</p>
+                            </div><!-- member -->
+                            <p class="text">
+                                <a href="./sub2.html#mid_wrapper">맛이 부담스럽지 않으면서도 밸런스가 좋아요. 뒷맛이 텁텁하지 않고 여운이 깔끔해요. 1층에 로스팅
+                                    룸이 있고 여기서 로스팅한
+                                    원두로 바로 내려주니 신선한 게 느껴졌어요. 아포가토 먹었는데 갈수록 진해지는 맛이 은근히 초코 같기도 해서 완전 추천해요.</a>
+                            </p>
+                        </div><!-- wrapper -->
+                        <a class="cafe" href="./sub2.html#mid_wrapper">
+                            <p>명지동</p>
+                            <p>히떼</p>
+                            <p>보러가기 ></p>
+                        </a>
+                    </div><!-- contents -->
+                </li><!-- 리뷰5 -->
+            </ul>
+            <ol class="review_box right_box">
+                <li>
+                    <img src="./images/index/review_photo3.jpg" alt="리뷰이미지3">
+                    <img class="blue_bg vertical" src="./images/index/review_bg_vertical.png" alt="파란배경">
+                    <div class="contents vertical">
+                        <div class="wrapper">
+                            <div class="member">
+                                <img src="./images/index/review_profile3.png" alt="리뷰3 프로필 이미지">
+                                <p>산미없인못살아님</p>
+                            </div><!-- member -->
+                            <p class="text">
+                                <a href="./sub2.html#mid_wrapper">입안에서 꾸-덕하게 감기는게 진짜... 맛있어요. 두 잔 마시고 밤에 잠 안와도 후회없는
+                                    맛입니다. 강추!</a>
+                            </p>
+                        </div><!-- wrapper -->
+                        <a class="cafe" href="./sub2.html#mid_wrapper">
+                            <p>중앙동</p>
+                            <p>루모스</p>
+                            <p>보러가기 ></p>
+                        </a>
+                    </div><!-- contents -->
+                </li><!-- 리뷰3 -->
+                <li>
+                    <img src="./images/index/review_photo6.jpg" alt="리뷰이미지6">
+                    <img class="blue_bg vertical" src="./images/index/review_bg_vertical.png" alt="파란배경">
+                    <div class="contents vertical">
+                        <div class="wrapper">
+                            <div class="member">
+                                <img src="./images/index/review_profile6.png" alt="리뷰6 프로필 이미지">
+                                <p>카페노마드님</p>
+                            </div><!-- member -->
+                            <p class="text">
+                                <a href="./sub2.html#mid_wrapper">야외 테라스에서 따뜻한 햇빛 받으면서 아메리카노 한잔 마시는 게 진짜 행복 그 자체. 빈티지 잔도
+                                    너무 예뻤어요. 핸드드립으로
+                                    내려주시는데 드립 방법도 설명해주셔서 커피를 더 잘 알고 즐길 수 있었던 것 같아요.</a>
+                            </p>
+                        </div><!-- wrapper -->
+                        <a class="cafe" href="./sub2.html#mid_wrapper">
+                            <p>송도</p>
+                            <p>빈스톡커피</p>
+                            <p>보러가기 ></p>
+                        </a>
+                    </div><!-- contents -->
+                </li><!-- 리뷰6 -->
+            </ol>
+        </div><!-- container -->
+    </div><!-- review -->
+    <div id="product">
+        <h1 class="title" data-aos="fade-up" data-aos-duration="800">이달의 추천 상품
+            <img class="emoji" src="./images/index/emoji_coffee.png" alt="커피 이모지">
+        </h1>
+        <h2 class="sub_title" data-aos="fade-up" data-aos-duration="800">부산 카페 상품을 한눈에!<br>
+            카페인부산만의 특별한 제품도 만나보세요 </h2>
+        <div class="swiper swiper_product" data-aos="fade-up" data-aos-duration="800">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="./sub4_2.html">
+                        <div class="img">
+                            <img src="./images/index/product_gwanganli.png" alt="원두 광안리">
+                            <p class="badge new">NEW</p>
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_2.html">
+                            <h3 class="name">나이트뷰 블렌드 디카페인</h3>
+                            <p class="explain">어둠을 밝히는 광안대교 불빛처럼<br>
+                                깊은 밤에도 즐기는 다채로운 풍미</p>
+                        </a>
+                        <ul class="tag">
+                            <li># 깔끔한</li>
+                            <li># 고소한</li>
+                            <li># 콜롬비아</li>
+                        </ul>
+                        <p class="price">18,000원</p>
+                        <p class="discount">회원가<span>16,800원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub4_2.html">
+                        <div class="img">
+                            <img src="./images/index/product_bosudong.png" alt="원두 보수동">
+                            <p class="badge new">NEW</p>
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_2.html">
+                            <h3 class="name">스페셜 컬렉션 빈티지 블랜드</h3>
+                            <p class="explain">보수동 골목의 오래된 책처럼<br>
+                                시간이 지나도 가치있는 클래식한 풍미</p>
+                        </a>
+                        <ul class="tag">
+                            <li># 견과류</li>
+                            <li># 부드러운</li>
+                            <li># 과테말라</li>
+                        </ul>
+                        <p class="price">17,000원</p>
+                        <p class="discount">회원가<span>15,900원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub4_2.html">
+                        <div class="img">
+                            <img src="./images/index/product_dadeapo.png" alt="원두 다대포">
+                            <p class="badge new">NEW</p>
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_2.html">
+                            <h3 class="name">스페셜 컬렉션 선셋 블랜드</h3>
+                            <p class="explain">다대포의 해질녘 붉은 노을처럼 강렬한 풍미<br>
+                                한입 머금었을 때 퍼지는 향을 느껴보세요</p>
+                        </a>
+                        <ul class="tag">
+                            <li># 화려한</li>
+                            <li># 농염한</li>
+                            <li># 에티오피아</li>
+                        </ul>
+                        <p class="price">18,000원</p>
+                        <p class="discount">회원가<span>16,800원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub4_4.html">
+                        <div class="img">
+                            <img src="./images/index/product_mug.jpg" alt="굿즈 머그">
+                            <p class="badge best">BEST</p>
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_4.html">
+                            <h3 class="name">시그니처 라운드 머그</h3>
+                            <p class="explain">각지면서도 둥근 카페인부산의 로고를 닮은<br>
+                                머그로 큼직하지만 그립감이 좋습니다</p>
+                        </a>
+                        <ul class="tag">
+                            <li># 대용량</li>
+                            <li># 커피컵</li>
+                            <li># 기본템</li>
+                        </ul>
+                        <p class="price">12,000원</p>
+                        <p class="discount">회원가<span>10,000원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub4_2.html">
+                        <div class="img">
+                            <img src="./images/index/product_collection.jpg" alt="컬렉션 박스">
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_2.html">
+                            <h3 class="name">부산타워 드립백 컬렉션 박스</h3>
+                            <p class="explain">직접 로스팅한 원두로 각자의 매력을 선보이는<br>
+                                부산 카페의 드립백을 모았습니다
+                        </a>
+                        <ul class="tag">
+                            <li># 한번에</li>
+                            <li># 로스터리</li>
+                            <li># 스페셜티</li>
+                        </ul>
+                        <p class="price">18,000원</p>
+                        <p class="discount">회원가<span>16,800원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub4_4.html">
+                        <div class="img">
+                            <img src="./images/index/product_coaster_brown.jpg" alt="코스터 브라운">
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_4.html">
+                            <h3 class="name">리사이클 티코스터 - Brown</h3>
+                            <p class="explain">원두 부산물인 커피박으로 만든 친환경<br>
+                                제품입니다. 소음과 충격을 흡수합니다. </p>
+                        </a>
+                        <ul class="tag">
+                            <li># 선물용</li>
+                            <li># 친환경</li>
+                            <li># 테이블웨어</li>
+                        </ul>
+                        <p class="price">6,000원</p>
+                        <p class="discount">회원가<span>4,800원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub4_4.html">
+                        <div class="img">
+                            <img src="./images/index/product_coaster_Blue.jpg" alt="코스터 블루">
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_4.html">
+                            <h3 class="name">리사이클 티코스터 - Blue</h3>
+                            <p class="explain">원두 부산물인 커피박으로 만든 친환경<br>
+                                제품입니다. 소음과 충격을 흡수합니다. </p>
+                        </a>
+                        <ul class="tag">
+                            <li># 선물용</li>
+                            <li># 친환경</li>
+                            <li># 테이블웨어</li>
+                        </ul>
+                        <p class="price">6,000원</p>
+                        <p class="discount">회원가<span>4,800원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub4_4.html">
+                        <div class="img">
+                            <img src="./images/index/product_sand_sea.jpg" alt="웨이브컵 블루">
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_4.html">
+                            <h3 class="name">웨이브 에나멜 컵 - SEA</h3>
+                            <p class="explain">가벼우면서 깨지지 않는 재질로 만들어져<br>
+                                부담없이 사용하기 좋습니다.</p>
+                        </a>
+                        <ul class="tag">
+                            <li># 그래픽</li>
+                            <li># 바다</li>
+                            <li># 테이블웨어</li>
+                        </ul>
+                        <p class="price">13,000원</p>
+                        <p class="discount">회원가<span>11,900원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub4_4.html">
+                        <div class="img">
+                            <img src="./images/index/product_sand_latte.jpg" alt="웨이브컵 라떼">
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_4.html">
+                            <h3 class="name">웨이브 에나멜 컵 - LATTE</h3>
+                            <p class="explain">가벼우면서 깨지지 않는 재질로 만들어져<br>
+                                부담없이 사용하기 좋습니다.</p>
+                        </a>
+                        <ul class="tag">
+                            <li># 그래픽</li>
+                            <li># 바다</li>
+                            <li># 테이블웨어</li>
+                        </ul>
+                        <p class="price">13,000원</p>
+                        <p class="discount">회원가<span>11,900원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+                <div class="swiper-slide">
+                    <a href="./sub4_4.html">
+                        <div class="img">
+                            <img src="./images/index/product_note.jpg" alt="커핑노트">
+                        </div><!-- img -->
+                    </a>
+                    <div class="text">
+                        <p class="cafe">[카페인부산]</p>
+                        <a href="./sub4_4.html">
+                            <h3 class="name">커핑 노트 80매</h3>
+                            <p class="explain">나만의 커피 탐구 기록을 차곡차곡 쌓아보세요.<br>커버는 코팅처리하여 물기와 오염에 강합니다. </p>
+                        </a>
+                        <ul class="tag">
+                            <li># 컵노트</li>
+                            <li># 수첩</li>
+                            <li># 취향기록</li>
+                        </ul>
+                        <p class="price">9,000원</p>
+                        <p class="discount">회원가<span>7,900원</span></p>
+                    </div><!-- text -->
+                </div><!-- slide -->
+
+            </div><!-- wrapper -->
+            <div class="swiper-scrollbar product_scroll"></div>
+        </div><!-- swiper -->
+    </div><!--product  -->
+    <div id="line_banner">
+        <ul class="banner_inner">
+            <li><img src="./images/index/line_banner_text1.png" alt="배너 문구1"></li>
+            <li><img src="./images/index/line_banner_text2.png" alt="배너 문구2"></li>
+        </ul>
+    </div><!-- line_banner -->
+    <div id="app">
+        <div class="QR">
+            <div class="text">
+                <h1 class="title">앱으로 더 빠르고, 간편하게</h1>
+                <h2 class="title">내 주변의 카페를 찾고<br>
+                    커피로 소통해보세요!</h2>
+            </div><!-- text -->
+            <img src="./images/index/QR.png" alt="QR 이미지">
+            <p>스마트폰 카메라 앱으로 스캔하면<br>
+                다운로드 페이지로 이동합니다</p>
+        </div><!-- text -->
+        <img src="./images/index/phone_screen.png" alt="앱 로딩 화면" data-aos="fade-up" data-aos-duration="1200">
+        <ul data-aos="fade-right" data-aos-duration="1200">
+            <li>
+                <!-- bg -->
+                <h3 class="title">내 근처 카페 찾기<br>
+                    <span>위치 기능으로 지금 나와 가까운 추천 카페를 볼 수 있어요</span>
+                </h3>
+            </li>
+            <li>
+                <!-- bg -->
+                <h3 class="title">리뷰 쓰기<br>
+                    <span>언제 어디서든 간편하게<br>
+                        오늘 방문한 카페에 대해 후기를 남겨보세요 </span>
+                </h3>
+            </li>
+            <li>
+                <!-- bg -->
+                <h3 class="title">이용자 커뮤니티<br>
+                    <span>커피에 대한 다양한 이야기로<br>
+                        사람들과 소통해보세요</span>
+                </h3>
+            </li>
+        </ul>
+    </div><!-- app -->
+    <footer>
+        <!-- 움직이는 배경 -->
+        <div class="wave1"></div><!-- wave1 -->
+        <div class="wave2"></div><!-- wave2 -->
+        <div class="footer_inner">
+            <!--  포지션, 가운데정렬 -->
+            <h1 class="footer_logo"><a href="./index.html"><img src="./images/index/footer_logo.png" alt="푸터 로고"></a>
+            </h1>
+            <div class="info">
+                <p>
+                    <span>회사명</span>&nbsp; 주식회사 카페인부산 &nbsp; &nbsp;<span>대표자</span>&nbsp; 이영윤 이재협&nbsp; &nbsp;
+                    <span>주소</span>&nbsp;
+                    부산광역시 중구 중앙대로 26 기업성장센터 10층
+                    1005호<br>
+                    <span>문의전화</span>&nbsp; 1588-1650 &nbsp; &nbsp;<span>상담가능시간</span>&nbsp; 10:00 ~ 19:00 (Break 13:00
+                    ~
+                    14:00)&nbsp; &nbsp;
+                    <span>문의메일</span> &nbsp;ask@caffein_busan.com
+                </p>
+                <ul>
+                    <li><a href="https://www.kakaocorp.com/page/service/service/KakaoTalk" target="_blank"><img
+                                src="./images/index/icon_kakao.png" alt="카카오톡 아이콘"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/index/icon_insta.png"
+                                alt="인스타 아이콘"></a></li>
+                    <li><a href="https://twitter.com/X" target="_blank"><img src="./images/index/icon_x.png"
+                                alt="X 아이콘"></a></li>
+                </ul>
+            </div><!-- info -->
+            <ol class="footer_menu">
+                <li><a href="#none">이용약관</a></li>
+                <li><a href="#none">개인정보처리방침</a></li>
+                <li><a href="#none">비즈니스 문의</a></li>
+            </ol>
+            <p>© 2024 Caffein Busan All rights reserved.</p>
+        </div><!-- footer_inner -->
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- 헤더 배경 변화 -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- 제이쿼리 라이브러리 파일_헤더 서브메뉴 -->
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="./js/common_script.js"></script>
+    <script src="./js/index_script.js"></script>
+
+</body>
+
+</html>
